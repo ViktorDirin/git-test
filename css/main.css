@@ -20,4 +20,30 @@ button {
     border-radius: 28px;
     border: none;
     background-color: #FFC107;
+    cursor: pointer;
+}
+
+.github-link {
+    margin-top: 50px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.github-link i {
+    font-size: 70px;
+    margin-right: 40px;
+}
+
+.github-link span {
+    font-size: 40px;
+    margin-right: 40px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.github-link-a {
+    text-decoration: none;
+    color: blue;
 }
